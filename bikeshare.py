@@ -15,7 +15,8 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello!! Let\'s explore some US bikeshare data!')
+
+    print('Hello there! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     
 def get_user_inputs():
@@ -28,7 +29,7 @@ def get_user_inputs():
         else:
             print("Spelling mistake. Please enter again.")
 
-    print("You have chosen", city.capitalize())
+    print("Thanks! You have chosen", city.capitalize())
 
     # TO DO: get user input for month (all, january, february, ... , june)
     valid_months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
