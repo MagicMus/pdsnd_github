@@ -22,7 +22,7 @@ def get_user_inputs():
     valid_cities = ['chicago', 'new york city', 'washington']
 
     while True:
-        city = input("Please choose a city (Chicago, New York City, Washington): ").lower()
+        city = input("Please choose a City (Chicago, New York City, Washington): ").lower()
         if city in valid_cities:
             break
         else:
