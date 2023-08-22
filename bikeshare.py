@@ -28,7 +28,7 @@ def get_user_inputs():
         else:
             print("Spelling mistake. Please enter again.")
 
-    print("You have chosen", city.capitalize())
+    print("Thanks! You have chosen", city.capitalize())
 
     # TO DO: get user input for month (all, january, february, ... , june)
     valid_months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
